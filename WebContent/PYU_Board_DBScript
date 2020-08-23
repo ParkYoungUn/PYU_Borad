@@ -1,0 +1,19 @@
+create database PYU_Board;
+use PYU_Board;
+
+create table User(
+	userID varchar(20) primary key,
+	userPassword varchar(20),
+	userName varchar(20),
+	userGender varchar(10),
+	userEmail varchar(50)
+);
+drop table user;
+show tables;
+desc user;
+
+insert into user values('pyu6491','1234','박영운','남자','youngun45@naver.com');
+insert into user values('pyu','1234','영운박','남자','youngun@naver.com');
+select * from user;
+
+delete from user where userID = "gst10140";
