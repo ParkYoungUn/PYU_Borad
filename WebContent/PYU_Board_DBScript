@@ -17,3 +17,14 @@ insert into user values('pyu','1234','영운박','남자','youngun@naver.com');
 select * from user;
 
 delete from user where userID = "gst10140";
+
+create table PYU_Board(
+	BoardID int primary key,
+	BoardTitle varchar(50),
+	userID varchar(20),
+	BoardDate datetime,
+	BoardContent varchar(2048),
+	BoardAvailable int -- 현재 글이 삭제되었는지 알려줌(1,0)
+);
+
+select * from pyu_board;
