@@ -5,7 +5,7 @@
 <head>
 <meta name = "viewport" content="width=device-width",initial-scale="1" charset="UTF-8"> <!-- viewport=화면상의 표시영역, content=모바일 장치들에 맞게 크기조정, initial=초기화면 배율 설정 -->
 <link rel="stylesheet" href="css/bootstrap.css"> <!-- bootstrap을 사용하기 위해 지정 -->
-<title>로그인</title>
+<title>메인</title>
 
 </head>
 <body>
